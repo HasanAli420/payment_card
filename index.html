@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- google icon -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <!-- link css -->
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <div class="layOut">
+        <!-- payment -->
+        <div class="payment">
+            <h2 class="payment__heading">Confirm order and pay</h2>
+            <div class="payment__flex">
+                <!-- form -->
+                <div class="payment__form">
+                    <form action="#">
+                        <!-- payment with -->
+                        <div class="payment-with">
+                            <a href="#">Credit/Debit Card</a>
+                            <a href="#">Paypal</a>
+                        </div>
+                        <!-- payment with end -->
+
+                        <!-- Payment Details -->
+                        <div class="payment-details">
+                            <h3>Payment Details</h3>
+                            <input type="text"  placeholder="Name on Card">
+
+                            <div class="payment-flex">
+                                <input type="number" placeholder="Card Number">
+                                <input type="date">
+                                <input type="text" placeholder="CVV">
+                            </div>
+                        </div>
+                        <!-- Payment Details end -->
+
+                        <!-- Billing Address -->
+                        <div class="billing-address">
+                            <h3>Billing Address</h3>
+                            <input type="text" placeholder="Streer Address">
+
+                            <div class="flex">
+                                <input type="text" placeholder="City">
+                                <input type="text" placeholder="Province">
+                                <input type="number" placeholder="Zip Code">
+                            </div>
+                        </div>
+                        <!-- Billing Address end -->
+                    </form>
+                </div>
+                <!-- form end -->
+
+                <!--payment contacts -->
+                <div class="payment__contacts">
+                    <!-- payment card -->
+                    <div class="payment-card">
+                        <div class="contact-title">
+                            <h2>Contacts</h2>
+    
+                            <a href="#">
+                                <span class="material-symbols-outlined">
+                                    add_circle
+                                </span>
+                                
+                                Add new
+                            </a>
+                        </div>
+    
+                        <!-- contact card -->
+                        <div class="contact--card">
+                            <!-- single card -->
+                            <div class="card-box">
+                                <!-- card top -->
+                                <div class="cardTop">
+                                    <div class="office">
+                                        <span class="material-symbols-outlined">
+                                            home
+                                        </span>
+                                        <h3>Office Point</h3>
+                                    </div>
+                                    <input type="radio">
+                                </div>
+                                <!-- card top end -->
+                                <p>+1 232 4345 23</p>
+                                <p>2972 Westheimer Rd. Santa <br> Ana, Illinois 85486 </p>
+                            </div>
+                            <!-- single card end -->
+    
+                            <!-- single card -->
+                            <div class="card-box">
+                                <!-- card top -->
+                                <div class="cardTop">
+                                    <div class="office">
+                                        <span class="material-symbols-outlined">
+                                            home
+                                        </span>
+                                        <h3>Office Point</h3>
+                                    </div>
+                                    <input type="radio">
+                                </div>
+                                <!-- card top end -->
+                                <p>+1 232 4345 23</p>
+                                <p>2972 Westheimer Rd. Santa <br> Ana, Illinois 85486 </p>
+                            </div>
+                            <!-- single card end -->
+                        </div>
+                        <!-- contact card end -->
+                    </div>
+                    <!-- payment card end -->
+
+                    <!-- total payment -->
+                    <div class="total-pay">
+                        <p>Debit/Credit Card Payment</p>
+                        <h3>Total Pay</h3>
+                        <span>$620.54</span>
+                    </div>
+                    <!-- total payment end -->
+
+                    <!-- contact button -->
+                    <div class="contact-btn">
+                        <a href="#" class="clear-btn">Cancel</a>
+                        <a href="#" class="add-btn">
+                            Place Order
+                            <span class="material-symbols-outlined">
+                                arrow_right_alt
+                            </span>
+                        </a>
+                    </div>
+                    <!-- contact button end -->
+                </div>
+                <!-- contacts end -->
+            </div>
+        </div>
+        <!-- payment end -->
+    </div>
+</body>
+</html>

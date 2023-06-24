@@ -1,0 +1,249 @@
+/*----------  colors  ----------*/
+/*=============================================
+=            fonts       =
+=============================================*/
+/*----------  fonts family  ----------*/
+/*----------  font weights ----------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/*=============================================
+*----------  customer ----------*
+=============================================*/
+.layOut {
+  background-color: #fff;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 30px;
+}
+
+.payment {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.payment .payment__heading {
+  font-size: 28px;
+  font-weight: 600;
+  color: #666666;
+  margin-bottom: 20px;
+}
+.payment .payment__flex {
+  display: flex;
+  gap: 45px;
+}
+.payment .payment__form {
+  width: 100%;
+  margin-bottom: 40px;
+}
+.payment .payment__contacts {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+/*=============================================
+---------- Customer form  ----------
+=============================================*/
+.payment .payment__flex .payment__form {
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 2px 2px 39px 0px rgba(0, 0, 0, 0.1019607843);
+  margin-bottom: 30px;
+}
+.payment .payment__flex .payment__form h3 {
+  color: #666666;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.payment .payment__flex .payment__form .payment-with {
+  margin: 30px 0;
+}
+
+.payment .payment__flex .payment__form .payment-details {
+  margin-bottom: 30px;
+}
+
+.payment .payment__flex .payment__form .payment-details .payment-flex {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.payment .payment__flex .payment__form .payment-details input {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.1215686275);
+  border-radius: 6px;
+}
+
+.payment .payment__flex .payment__form .billing-address input {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.1215686275);
+  border-radius: 6px;
+}
+
+.payment .payment__flex .payment__form .billing-address .flex {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/*=============================================
+---------- Customer card contact  ----------
+=============================================*/
+.payment .payment__flex .payment__contacts .payment-card {
+  width: 100%;
+  padding: 30px 20px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.831372549);
+  margin-bottom: 20px;
+}
+.payment .payment__flex .payment__contacts .payment-card h2 {
+  color: #fff;
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.payment .payment__contacts .payment-card .contact-title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.payment .payment__contacts .payment-card .contact-title a {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 19px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.payment .payment__contacts .contact--card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.payment .payment__contacts .contact--card .card-box {
+  background-color: rgba(255, 255, 255, 0.1215686275);
+  padding: 10px;
+  width: 100%;
+  border-radius: 9px;
+}
+.payment .payment__contacts .contact--card .card-box p {
+  color: #fff;
+  font-size: 11px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.payment .payment__contacts .contact--card .card-box .cardTop {
+  display: flex;
+  align-items: center;
+}
+.payment .payment__contacts .contact--card .card-box .cardTop input {
+  margin-left: auto;
+}
+
+.payment .payment__contacts .contact--card .card-box .cardTop .office {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.payment .payment__contacts .contact--card .card-box .cardTop .office span {
+  font-size: 16px;
+}
+.payment .payment__contacts .contact--card .card-box .cardTop .office h3 {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.payment .payment__contacts .total-pay {
+  width: 100%;
+  padding: 30px 20px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.831372549);
+  margin-bottom: 30px;
+}
+.payment .payment__contacts .total-pay p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.payment .payment__contacts .total-pay h3 {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.payment .payment__contacts .total-pay span {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+/*=============================================
+---------- form button style  ----------
+=============================================*/
+.payment .payment__flex .payment__contacts .contact-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.payment .payment__flex .payment__contacts .contact-btn .clear-btn, .payment .payment__flex .payment__contacts .contact-btn .add-btn {
+  display: inline-block;
+  border: 1px solid #000000;
+  padding: 8px 30px;
+  border-radius: 10px;
+  color: #000000;
+  margin-right: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.payment .payment__flex .payment__contacts .contact-btn .add-btn {
+  border: none;
+  border: 1px solid #FF9900;
+  background-color: #FF9900;
+  box-shadow: 0px 16px 20px 0px rgba(0, 0, 0, 0.0392156863);
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.payment .payment__flex .payment__contacts .contact-btn .add-btn span {
+  margin-left: auto;
+  color: #fff;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .payment .payment__flex {
+    display: block;
+  }
+}/*# sourceMappingURL=style.css.map */
